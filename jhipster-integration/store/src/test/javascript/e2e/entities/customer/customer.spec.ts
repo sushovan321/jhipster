@@ -49,8 +49,8 @@ describe('Customer e2e test', () => {
             await customerUpdatePage.setLastNameInput('lastName');
             expect(await customerUpdatePage.getLastNameInput()).to.match(/lastName/);
             await customerUpdatePage.genderSelectLastOption();
-            await customerUpdatePage.setEmailInput('Khi]+tOv)&gt;%wi8f&#34;evg&gt;8&#34;ia_,Po}Whf0?&#34;V5%!_ZSm&gt;FW\4auAq(5}B8AMD@}LB~lo.k,&amp;_QeUq.9dU6-&lt;&lt;M');
-            expect(await customerUpdatePage.getEmailInput()).to.match(/Khi]+tOv)&gt;%wi8f&#34;evg&gt;8&#34;ia_,Po}Whf0?&#34;V5%!_ZSm&gt;FW\4auAq(5}B8AMD@}LB~lo.k,&amp;_QeUq.9dU6-&lt;&lt;M/);
+            await customerUpdatePage.setEmailInput('z!yc[Cn&#39;GbSAD]#E*:}*OSdp&lt;{3ved_Fp5z&amp;x%oF=PQEW%F),R[rLP_L@&#34;&#34;l1g]8SvX4+M2=9YB*3=1|6-.SUN6ndP%lKI_+F`k7w6%vwvaW;^G[U&lt;J2.%8nv&gt;Zps)&amp;blA]&lt;9M`:D+&#34;O');
+            expect(await customerUpdatePage.getEmailInput()).to.match(/z!yc[Cn&#39;GbSAD]#E*:}*OSdp&lt;{3ved_Fp5z&amp;x%oF=PQEW%F),R[rLP_L@&#34;&#34;l1g]8SvX4+M2=9YB*3=1|6-.SUN6ndP%lKI_+F`k7w6%vwvaW;^G[U&lt;J2.%8nv&gt;Zps)&amp;blA]&lt;9M`:D+&#34;O/);
             await customerUpdatePage.setPhoneInput('phone');
             expect(await customerUpdatePage.getPhoneInput()).to.match(/phone/);
             await customerUpdatePage.setAddressLine1Input('addressLine1');
